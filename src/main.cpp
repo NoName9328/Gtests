@@ -3,6 +3,7 @@
 #include "sto.h"
 
 #include <Windows.h>
+#include <gtest/gtest.h>
 
 void GoToXY(int column, int line)
 {
