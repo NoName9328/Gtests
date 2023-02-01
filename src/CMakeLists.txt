@@ -4,6 +4,7 @@ set(HEADERS
     sto.h
     car.h
     icar.h
+    utils.h
     carowner.h
 )
 

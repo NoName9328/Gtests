@@ -1,9 +1,10 @@
 #pragma once
 
+#include "carowner.h"
+
 class STO
 {
 public:
-    void showPrice();
-
 private:
+    CarOwner *_carOwner{nullptr};
 };
