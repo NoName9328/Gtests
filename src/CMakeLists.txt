@@ -5,6 +5,7 @@ set(HEADERS
     car.h
     icar.h
     utils.h
+    uimenu.cpp
     carowner.h
 )
 
@@ -13,6 +14,7 @@ set(SOURCES
     car.cpp
     main.cpp
     icar.cpp
+    uimenu.h
     carowner.cpp
 )
 

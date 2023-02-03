@@ -1,21 +1,14 @@
 #include <iostream>
 
-#include "utils.h"
+#include "uimenu.h"
 
 #include <Windows.h>
-#include <gtest/gtest.h>
 
-
-
-void start()
-{
-    Utils::showPrice();
-}
 
 int main()
 {
-    int a;
-    start();
+    UiMenu menu;
+    menu.start();
     system("pause");
     return 0;
 }

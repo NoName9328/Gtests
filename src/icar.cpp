@@ -1,9 +1,7 @@
 #include "icar.h"
 
 ICar::ICar(CarBrand carBrand, CarBodyStyle CarBodyStyle)
-    : _carBrand(carBrand), _carBrandStyle(CarBodyStyle)
-{
-}
+    : _carBrand(carBrand), _carBrandStyle(CarBodyStyle) {}
 
 ICar::~ICar() = default;
 

@@ -2,17 +2,9 @@
 
 #include <string>
 
-enum class CarBrand
-{
-  Undefined = -1,
-  Audi,
-  Opel,
-  Fiat,
-  Chevrilet
-};
+enum class CarBrand { Undefined = -1, Audi, Opel, Fiat, Chevrilet };
 
-enum class CarBodyStyle
-{
+enum class CarBodyStyle {
   Undefined = -1,
   SEDAN,
   COUPE,
@@ -21,19 +13,9 @@ enum class CarBodyStyle
   MINIVAN
 };
 
-enum class Color
-{
-  Undefined = -1,
-  Green,
-  Black,
-  Gray,
-  Blue,
-  Yellow,
-  White
-};
+enum class Color { Undefined = -1, Green, Black, Gray, Blue, Yellow, White };
 
-class ICar
-{
+class ICar {
 public:
   ICar(CarBrand carBrand, CarBodyStyle CarBodyStyle);
   ~ICar();
